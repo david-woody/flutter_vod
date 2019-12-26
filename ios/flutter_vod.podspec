@@ -14,7 +14,7 @@ A new Flutter plugin.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   #s.source       = { :git => "git://github.com/kelp404/CocoaSecurity.git" }
-
+  s.static_framework = true
   #s.source_files  = "CocoaSecurity", "CocoaSecurity/*.{h,m}"
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
