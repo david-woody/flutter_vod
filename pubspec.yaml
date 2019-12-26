@@ -1,6 +1,6 @@
 name: flutter_vod
-description: A new Flutter plugin.
-version: 0.0.2
+description: Flutter Vod Upload plugin.
+version: 0.0.3
 author: wallent <ding.woody@gmail.com>
 homepage: https://github.com/david-woody/flutter_vod
 
