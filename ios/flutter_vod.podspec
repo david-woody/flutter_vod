@@ -19,7 +19,7 @@ A new Flutter plugin.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   #s.dependency 'AliyunOSSiOS'
-  s.dependency 'CocoaSecurity'
+  #s.dependency 'CocoaSecurity'
   s.frameworks = "CoreTelephony", "SystemConfiguration", "Foundation"
 
   s.ios.vendored_frameworks = 'Frameworks/*.framework'
@@ -28,7 +28,7 @@ A new Flutter plugin.
   s.libraries = "c++"
 
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
+  #s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.ios.deployment_target = '8.0'
 
 end

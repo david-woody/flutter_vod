@@ -1,5 +1,4 @@
 #import "FlutterVodPlugin.h"
-#import <flutter_vod/flutter_vod-Swift.h>
 #import "UploadController.h"
 
 @implementation FlutterVodPlugin
@@ -7,16 +6,11 @@
 UploadController *_flutterUploadHandler;
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-//  [SwiftFlutterVodPlugin registerWithRegistrar:registrar];
-//    if (self) {
-//           _fluwxShareHandler = [[UploadController alloc] initWithRegistrar:registrar];
-//       }
     FlutterMethodChannel *channel = [FlutterMethodChannel
                methodChannelWithName:@"com.uni4m/flutter_vod"
                      binaryMessenger:[registrar messenger]];
 
        FlutterVodPlugin *instance = [[FlutterVodPlugin alloc] initWithRegistrar:registrar methodChannel:channel];
-//       [[FluwxResponseHandler defaultManager] setMethodChannel:channel];
        [registrar addMethodCallDelegate:instance channel:channel];
        [registrar addApplicationDelegate:instance];
 

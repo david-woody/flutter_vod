@@ -12,7 +12,6 @@
 #import "TXUGCPublish.h"
 #import "TXUGCPublishOptCenter.h"
 #import "TCHttpUtil.h"
-#include "SecurityUtil.h"
 @interface UploadController ()<TXVideoPublishListener>
 @property (nonatomic, strong) NSString* uploadTempFilePath;
 
