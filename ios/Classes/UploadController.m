@@ -24,12 +24,12 @@
     NSString         *_signature;
 }
 
-NSObject <FlutterPluginRegistrar> *_fluwxRegistrar;
+NSObject <FlutterPluginRegistrar> *_flutterVodRegistrar;
 
 - (instancetype)initWithRegistrar:(NSObject <FlutterPluginRegistrar> *)registrar {
     self = [super init];
     if (self) {
-        _fluwxRegistrar = registrar;
+        _flutterVodRegistrar = registrar;
     }
     return self;
 }
