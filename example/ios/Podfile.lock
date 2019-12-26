@@ -1,0 +1,35 @@
+PODS:
+  - CocoaSecurity (1.2.4)
+  - Flutter (1.0.0)
+  - flutter_vod (0.0.7):
+    - CocoaSecurity
+    - Flutter
+  - image_picker (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_vod (from `.symlinks/plugins/flutter_vod/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaSecurity
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_vod:
+    :path: ".symlinks/plugins/flutter_vod/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+
+SPEC CHECKSUMS:
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_vod: 81dc8400570abbd1df6ef5a350bf073d3dd3d7bf
+  image_picker: e3eacd46b94694dde7cf2705955cece853aa1a8f
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.8.4
