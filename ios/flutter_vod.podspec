@@ -27,7 +27,7 @@ A new Flutter plugin.
   s.vendored_libraries = 'lib/libmtasdk.a'
   s.libraries = "c++"
 
-  #s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC'}
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.ios.deployment_target = '8.0'
 
