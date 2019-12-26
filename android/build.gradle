@@ -37,7 +37,7 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs/upload')
-    compile files('libs/upload/BASE64.jar')
+    implementation fileTree(include: ['*.jar'], dir: 'libs/upload')
+    implementation files('libs/upload/BASE64.jar')
     implementation 'com.squareup.okhttp3:okhttp:3.9.0'
 }
