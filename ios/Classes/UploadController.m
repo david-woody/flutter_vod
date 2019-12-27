@@ -86,12 +86,7 @@ NSObject <FlutterPluginRegistrar> *_flutterVodRegistrar;
         fResult([FlutterError errorWithCode:@"Get signature failed" message:@"Please init vod plugin first!" details:@""]);
     }
     TXPublishParam *publishParam = [[TXPublishParam alloc] init];
-    if(_getSignature == nil){
-        publishParam.signature  = _signature;
-    }else{
-        publishParam.signature  = _getSignature;
-    }
-    
+    publishParam.signature  = _signature;
     publishParam.coverPath = nil;
     publishParam.videoPath  =   _videoPath;
     [_videoPublish publishVideo:publishParam result:fResult];
